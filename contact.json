@@ -1,0 +1,38 @@
+{
+    "data":[
+        {
+            "userId": "1",
+            "username": "王xx",
+            "nameGroup": "W"
+        },
+        {
+            "userId": "2",
+            "username": "陈xx",
+            "nameGroup": "C"
+        },{
+            "userId": "3",
+            "username": "丁xx",
+            "nameGroup": "D"
+        },{
+            "userId": "4",
+            "username": "黄xx",
+            "nameGroup": "H"
+        },{
+            "userId": "5",
+            "username": "徐xx",
+            "nameGroup": "X"
+        },{
+            "userId": "6",
+            "username": "金xx",
+            "nameGroup": "J"
+        },{
+            "userId": "7",
+            "username": "万xx",
+            "nameGroup": "W"
+        },{
+            "userId": "8",
+            "username": "秦xx",
+            "nameGroup": "Q"
+        }],
+    "count": 8
+}

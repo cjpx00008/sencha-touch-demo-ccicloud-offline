@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "infoId": "1",
+            "infoContent": "任曦已经将您添加为网络管理员",
+            "createTime":"2014-01-07 13:52:22",
+            "weiboId":"1",
+            "type":"mentioned"
+        },
+        {
+            "infoId": "2",
+            "infoContent": "黄飞鸿已经将您添加为网络管理员",
+            "createTime":"2014-01-07 13:52:22",
+            "weiboId":"1",
+            "type":"reply"
+        },
+        {
+            "infoId": "3",
+            "infoContent": "天堂已经将您添加为网络管理员",
+            "weiboId":"1",
+            "createTime":"2014-01-07 13:52:22",
+            "type":"like"
+        },
+        {
+            "infoId": "4",
+            "infoContent": "天堂已经将您添加为网络管理员",
+            "weiboId":"1",
+            "createTime":"2014-01-07 13:52:22",
+            "type":"systemNotice"
+        }
+    ],
+    "count":"12"
+}

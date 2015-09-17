@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "weiboInfo": {
+                "weiboId": 1,
+                "userhead": "resources/images/head.png",
+                "username": "任茜茜",
+                "createTime": "21分钟前",
+                "content": "此次获得铜奖的作品《杨树林之恋》。",
+                "forward": {
+                    "username": "@费林",
+                    "userId": "2",
+                    "content": "这个不错。<a class='wb-name'>@徐志</a> 今天为您展示的是此次获得铜奖的作品《杨树林之恋》，作者赖超英。",
+                    "media": [
+                        {
+                            "m-src": "resources/images/4.jpg",
+                            "h-src": "resources/images/4.jpg"
+                        }
+                    ]
+                },
+                "media": [],
+                "like": 5,
+                "replyCount":"10",
+                "likeStatus": 0
+            },
+            "reply": {
+                "replyId": "1",
+                "replyHead": "resources/images/head.png",
+                "replyName": "黄飞鸿",
+                "replyContent": "凡年满18岁人士，在遵守版规前提下，可自由发布言论，畅所欲言。社区遵循世界人权宣言第十九条内容。",
+                "replyTime": "21分钟前"
+            }
+        },
+        {
+            "reply": {
+                "replyId": "2",
+                "replyHead": "resources/images/head.png",
+                "replyName": "天堂",
+                "replyContent": "凡年满18岁人士，在遵守版规前提下，可自由发布言论，畅所欲言。社区遵循世界人权宣言第十九条内容。",
+                "replyTime": "21分钟前"
+            }
+        }
+    ],
+
+    "count": 10
+}

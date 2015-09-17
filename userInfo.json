@@ -1,0 +1,15 @@
+{
+    "data":{
+        "username":"任曦",
+        "userHead":"resources/images/userInfo-head.png",
+        "userFans": 10,
+        "userInterest": 12,
+        "department":"产品中心",
+        "company":"如云科技",
+        "office":"产品经理",
+        "mobile":"13862888888",
+        "tel":"051385588888",
+        "email":"chenxi@jsruyun.com",
+        "attentionStatus": 0
+    }
+}

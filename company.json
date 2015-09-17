@@ -1,0 +1,15 @@
+{
+    "data": [
+        {
+            "companyId": "1",
+            "companyName": "华为",
+            "status": 0
+        },
+        {
+            "companyId": "2",
+            "companyName": "中兴",
+            "status": 1
+        }
+    ],
+    "count": "12"
+}

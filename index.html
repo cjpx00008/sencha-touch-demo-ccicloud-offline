@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>CCICloud</title>
+    <style type="text/css">
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+            height: 100%;
+            background-color: #ffffff
+        }
+
+        #appLoadingIndicator {
+            position: absolute;
+            background:url("resources/images/load.jpg") no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 100%;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 0.8s;
+            -webkit-animation-iteration-count: 1;
+            -webkit-animation-direction: linear;
+        }
+
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0
+            }
+            100% {
+                opacity: 1
+            }
+        }
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('deviceready', onDeviceReady, false);
+        function onDeviceReady() {
+            document.addEventListener("backbutton", onBackKeyDown, false);
+        }
+
+        function onBackKeyDown() {
+            var obj = Ext.getCmp("main").getActiveItem();
+            console.log(obj.config.xtype);
+            if(obj.config.xtype == "viewTab" || obj.config.xtype == "login") {
+                navigator.notification.confirm(
+                        '按确定退出程序!',  // message
+                        onConfirm,              // callback to invoke with index of button pressed
+                        '确定要退出程序吗?',            // title
+                        ["确定","取消"]          // buttonLabels
+                );
+            }
+            else {
+                history.back();
+            }
+
+        }
+
+        function onConfirm(button) {
+            if (button == 1) {
+                navigator.app.exitApp();
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+    <div id="appLoadingIndicator">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
